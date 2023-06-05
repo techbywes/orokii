@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f4f9;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav_container {
+  width: 100%;
+  height: 4rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem 0 4rem;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 4rem;
+}
+
+.btn_text_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 12rem;
+}
+
+.right_text {
+  font-size: 1rem;
+}
+
+.signup_btn {
+  margin-left: 1rem;
+  border: none;
+  cursor: pointer;
+  padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+  border-radius: 0.2rem;
+  background-image: linear-gradient(109.78deg, #184d8c 23.16%, #ff276a 114.89%);
+  color: white;
+}
+
+.signup_btn:hover {
+  background-image: linear-gradient(
+    109.3deg,
+    #184c8cd4 23.1%,
+    #ff276be9 114.5%
+  );
+}
+
+.general_box_container {
+  margin-top: 4rem;
+  width: 80%;
+  height: 90vh;
+  background-image: url("../images/bg2.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fafbfc;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 4px 0.6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4rem;
+}
+
+.left_right_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 4rem 8rem 1rem;
+}
+
+.left_wrapper {
+  margin-right: 8rem;
+}
+
+.signin_text {
+  font-size: 3.6rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.Starting_earning_text {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+
+.parap_text {
+  font-size: 1rem;
+  margin-bottom: 1.6rem;
+}
+
+.sign_up_link {
+  text-decoration: none;
+  color: blue;
+}
+.forgot_pword_span {
+  float: right;
+  margin-top: -1rem;
+  font-size: 0.8rem;
+}
+.forgotpword_link {
+  text-decoration: none;
+}
+
+.signin_text2 {
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+}
+
+/* FORM STARTS HERE */
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 16px;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  margin-bottom: 2.4rem;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: #f0efff;
+}
+
+input[type="submit"] {
+  color: white;
+  width: 100%;
+  padding: 1rem 2rem 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  background-image: linear-gradient(109.78deg, #184d8c 23.16%, #ff276a 114.89%);
+}
+::placeholder {
+  color: #9690e3;
+}
+
+input[type="submit"]:hover {
+  background-image: linear-gradient(
+    109.3deg,
+    #184c8cd4 23.1%,
+    #ff276be9 114.5%
+  );
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.hide_pword {
+  position: absolute;
+  padding-top: 1rem;
+  padding-left: 16rem;
+  width: 17rem;
+}
+/* FORM ENDS HERE */
+
+/* MEDIA QUEY STARTS HERE */
+/* Mobile Phones (portrait orientation) */
+@media (max-width: 320px) {
+  .general_box_container {
+    margin-top: 8rem;
+    width: 95%;
+    height: 45rem;
+    background-image: url("../images/bg2.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 4px 0.6px rgba(0, 0, 0, 0.3);
+  }
+  .left_right_wrapper {
+    display: block;
+    margin-top: -6rem;
+  }
+
+  .left_wrapper {
+    width: 100%;
+    margin-bottom: 1.6rem;
+  }
+
+  .signin_text {
+    font-size: 1.8rem;
+  }
+  .Starting_earning_text {
+    font-size: 1.6rem;
+  }
+  .parap_text {
+    font-size: 1.2rem;
+  }
+  .donthaveaccount_text {
+    font-size: 0.8rem;
+  }
+  .sign_up_link {
+    font-size: 0.8rem;
+  }
+  .signin_text2 {
+    font-size: 1.2rem;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 90%;
+
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.4rem;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    background-color: #f0efff;
+  }
+  input[type="submit"] {
+    color: white;
+    width: 90%;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-image: linear-gradient(
+      109.78deg,
+      #184d8c 23.16%,
+      #ff276a 114.89%
+    );
+  }
+
+  .right_text {
+    font-size: 0.8rem;
+    white-space: nowrap;
+    display: none;
+  }
+  .signup_btn {
+    margin-right: -2rem;
+    border: none;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    border-radius: 0.2rem;
+    background-image: linear-gradient(
+      109.78deg,
+      #184d8c 23.16%,
+      #ff276a 114.89%
+    );
+    color: white;
+  }
+  .forgotpword_link {
+    font-size: 0.8rem;
+    margin-right: 2rem;
+  }
+  .logo_div {
+    margin-left: -5rem;
+  }
+  .logo {
+    width: 10rem;
+  }
+}
+/* Mobile Phones (landscape orientation) */
+@media (min-width: 321px) and (max-width: 480px) {
+  .general_box_container {
+    width: 95%;
+    height: 40rem;
+    background-image: url("../images/bg2.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 4px 0.6px rgba(0, 0, 0, 0.4);
+    padding-top: 6rem;
+  }
+
+  .left_right_wrapper {
+    display: block;
+    margin-top: -4rem;
+  }
+
+  .left_wrapper {
+    margin-top: -6rem;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .signin_text {
+    font-size: 1.6rem;
+  }
+  .Starting_earning_text {
+    font-size: 1.4rem;
+    margin-bottom: rem;
+  }
+  .parap_text {
+    font-size: 1rem;
+  }
+  .donthaveaccount_text {
+    font-size: 1rem;
+  }
+  .sign_up_link {
+    font-size: 0.7rem;
+  }
+  .signin_text2 {
+    font-size: 1.2rem;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.4rem;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    background-color: #f0efff;
+  }
+  input[type="submit"] {
+    color: white;
+    width: 100%;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    background-image: linear-gradient(
+      109.78deg,
+      #184d8c 23.16%,
+      #ff276a 114.89%
+    );
+  }
+  .logo_text {
+    font-size: 1.6rem;
+    margin-left: -2rem;
+  }
+
+  .right_text {
+    font-size: 0.8rem;
+    white-space: nowrap;
+    display: none;
+  }
+  .signup_btn {
+    margin-right: -2rem;
+    border: none;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    border-radius: 0.2rem;
+    background-image: linear-gradient(
+      109.78deg,
+      #184d8c 23.16%,
+      #ff276a 114.89%
+    );
+    color: white;
+  }
+  .forgotpword_link {
+    font-size: 0.8rem;
+    margin-right: 2rem;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+}
+
+/* Small Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Your CSS styles for this breakpoint */
+}
+
+/* Tablets and larger smartphones (portrait orientation) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Your CSS styles for this breakpoint */
+}
+
+/* Tablets and larger smartphones (landscape orientation) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Your CSS styles for this breakpoint */
+}
+
+/* Laptops and desktops */
+@media (min-width: 1281px) and (max-width: 1366px) {
+  /* Your CSS styles for this breakpoint */
+}
+
+/* Larger screens */
+@media (min-width: 1367px) {
+  /* Your CSS styles for this breakpoint */
+}
+
+/* MEDIA QUERY ENDS HERE */

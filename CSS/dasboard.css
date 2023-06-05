@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav_bar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 0 2rem;
+}
+
+.logo_icon {
+  width: 18rem;
+  cursor: pointer;
+}
+
+.user_image {
+  width: 2.5rem;
+  border-radius: 0.4rem;
+  margin-left: -1.4rem;
+  margin-right: 0.6rem;
+  cursor: pointer;
+}
+
+.user_box_down_arrow_div {
+  background-color: #e5e8ed;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 2rem;
+  border-radius: 1rem;
+  width: 14rem;
+  gap: 1rem;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 4rem;
+}
+
+.notification_userbox_div {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.notification_icon {
+  width: 1.6rem;
+  cursor: pointer;
+}
+
+.user_text {
+  margin-right: 0.2rem;
+}
+.user_name_text {
+  font-size: 1rem;
+  white-space: nowrap;
+}
+.user_level_text {
+  font-size: 0.7rem;
+  color: #00b3f5;
+}
+
+.drop_down_icon {
+  cursor: pointer;
+}
+
+/* BODY DESIGN STARTS FROM HERE */
+
+.left_container {
+  background-color: #f1f4f9;
+  width: 18rem;
+  height: 100vh;
+}
+
+.home_icon_tex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  padding-top: 6rem;
+}
+
+.overview_text {
+  font-size: 1rem;
+}
+
+.dot_span {
+  font-size: 2rem;
+  color: #25408f;
+}
+.home_icon {
+  margin-left: 3.4rem;
+}
+
+.profile_icon,
+.support_icon,
+.home_icon {
+  width: 1.3rem;
+  cursor: pointer;
+}
+
+#profile,
+#support {
+  padding-top: 2.2rem;
+}
+#support{
+    margin-left: 0.7rem;
+}
+
+.text_icon_div{
+    background-color: #F2E1EB;
+    width:8rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin:  0 auto;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-left: 100px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.13);
+    margin-bottom: -5rem;
+}
+
+.log_out_icon{
+    cursor: pointer;
+    width: 1.4rem;
+}
+.logout_text{
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}

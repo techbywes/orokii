@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Affliate</title>
+  </head>
+  <body>
+    <!-- BODY STARTS HERE -->
+    <header class="head_wrapper">
+      <nav class="nav_container">
+        <div class="logo_div">
+          <img src="../images/logo_main.png" alt="" class="logo">
+        </div>
+        <div class="btn_text_div">
+          <h2 class="right_text">Dont have an account yet?</h2>
+          <button class="signup_btn">Sign Up</button>
+        </div>
+      </nav>
+
+      <div class="general_box_container">
+        <div class="left_right_wrapper">
+          <div class="left_wrapper">
+            <h2 class="signin_text">Sign In</h2>
+            <h3 class="Starting_earning_text">Starting Earning Now!</h3>
+            <p class="parap_text">
+              Satrt Earning Fill Out The application form to <br />
+              get startwd and we will be in touch ASAP.
+            </p>
+            <p class="donthaveaccount_text">
+              Dont have an account yet?
+              <a href="#" class="sign_up_link">Sign Up.</a>
+            </p>
+          </div>
+          <div class="right_wrapper">
+            <!-- FORM STARTS HERE -->
+
+            <h2 class="signin_text2">Sign In</h2>
+            <form action="/signup" method="POST">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Enter email or user name"
+              />
+              <img
+                src="../images/Hide-Password.png"
+                alt=""
+                class="hide_pword"
+              />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                Password
+                placeholder="Paswword"
+              />
+
+              <span class="forgot_pword_span">
+                <a href="#" class="forgotpword_link">Forgot password?</a>
+              </span>
+
+              <input type="submit" value="Sign In" />
+            </form>
+
+            <!-- FORM ENDS HERE -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- JAVASCRIPT CONNECTED HERE -->
+    <script src="../JAVASCRIPT/script.js"></script>
+  </body>
+</html>
