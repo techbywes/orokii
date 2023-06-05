@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+    overflow-X: hidden;
 }
 
 .nav_bar {
@@ -15,7 +19,7 @@
 }
 
 .logo_icon {
-  width: 18rem;
+  width: 16rem;
   cursor: pointer;
 }
 
@@ -67,10 +71,15 @@
 
 /* BODY DESIGN STARTS FROM HERE */
 
+.main_container {
+  display: flex;
+  justify-content: space-between;
+}
 .left_container {
   background-color: #f1f4f9;
-  width: 18rem;
-  height: 100vh;
+  width: 20rem;
+  height: 60rem;
+  padding-right: 3rem;
 }
 
 .home_icon_tex_container {
@@ -104,33 +113,279 @@
 #support {
   padding-top: 2.2rem;
 }
-#support{
-    margin-left: 0.7rem;
+#support {
+  margin-left: 0.7rem;
 }
 
-.text_icon_div{
-    background-color: #F2E1EB;
-    width:8rem;
-    height: 3rem;
-    border-radius: 0.4rem;
-    display: flex;
-    justify-content: center;
-    gap: 0.4rem;
-    margin:  0 auto;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    margin-left: 100px;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.13);
-    margin-bottom: -5rem;
+.text_icon_div {
+  background-color: #f2e1eb;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0 auto;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  margin-left: 70px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.13);
+  margin-bottom: -19rem;
 }
 
-.log_out_icon{
-    cursor: pointer;
-    width: 1.4rem;
+.log_out_icon {
+  cursor: pointer;
+  width: 1.4rem;
 }
-.logout_text{
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: bold;
+
+.right_container {
+  padding: 1rem;
+  padding-left: 3rem;
+}
+.logout_text {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.left-right-text-div {
+  margin-top: 2rem;
+  display: flex;
+  gap: 28rem;
+  padding-right: 3rem;
+}
+.download_barand_tex {
+  padding-right: 5rem;
+  white-space: nowrap;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: -2rem;
+}
+.hello_tex {
+  font-size: 1rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.annie_text {
+  color: #00b3f5;
+  font-weight: bold;
+}
+.here_link_text {
+  text-decoration: none;
+  color: #00b3f5;
+}
+
+.invite_text_div {
+  margin-top: 2rem;
+  background-color: #00b3f5;
+  width: 55rem;
+  height: 16rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.invite_text {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.small_text {
+  color: rgba(255, 255, 255, 0.626);
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.refer_text {
+  margin-top: 4rem;
+}
+.code_box {
+  background-color: whitesmoke;
+  width: 20rem;
+  height: 2.6rem;
+  border-radius: 0.6rem;
+}
+
+.refer_text {
+  color: white;
+  margin-bottom: 0.2rem;
+}
+.code_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.code_text {
+  font-weight: bold;
+  color: #00b3f5;
+  font-size: 1.2rem;
+}
+.copy_icon,
+.share_icon {
+  cursor: pointer;
+}
+.box_social_general_div {
+  display: flex;
+  align-items: center;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.facebook_icon_div,
+.messenger_icon_div,
+.twitter_icon_div {
+  border-radius: 50%;
+  background-color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.facebook_icon,
+.messenger_icon,
+.twitter_icon {
+  width: 1.8rem;
+  cursor: pointer;
+}
+
+.boxes-general_div {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+.green_box {
+  margin-top: 1.5rem;
+  background-color: #60c740;
+  width: 10rem;
+  height: 6rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.oranege_box {
+  margin-top: 1.5rem;
+  background-color: #ff8c19;
+  width: 10rem;
+  height: 6rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.blue_box {
+  margin-top: 1.5rem;
+  background-color: #112181;
+  width: 10rem;
+  height: 6rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.blac_box {
+  margin-top: 1.5rem;
+  background-color: #323642;
+  width: 10rem;
+  height: 6rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.small_200 {
+  font-size: 0.7rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.currency_span {
+  color: white;
+}
+.referal_date_reward_status_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5rem;
+}
+
+.invit_text {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.user_image_pic {
+  width: 2.4rem;
+  border-radius: 50%;
+}
+
+.user_image_social_div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: -4.1rem;
+}
+
+.image_title_social_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+.date_text_user {
+  margin-left: -2rem;
+}
+.dash__span {
+  margin-right: 1.6rem;
+}
+
+.invite_sent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cecece76;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.invite_sent_text {
+  font-size: 0.9rem;
+  white-space: nowrap;
+  color: #112181;
+}
+.user_title_text {
+  color: #112181;
+}
+.user_social_text {
+  font-size: 0.8rem;
+  color: #cecece;
+  margin-top: 0.2rem;
+}
+.date_text_user3 {
+  margin-left: -3rem;
+}
+.date_text_user2 {
+  margin-left: -1.5rem;
+}
+
+.image_title_social_div {
+  margin-bottom: -6rem;
+}
+
+.referal-text,
+.date-text,
+.reward-text,
+.status-text {
+  color: #112181;
+  font-weight: bold;
+}
+
+.ivit_text_box_div,
+.invit_text {
+  padding: 0 2rem;
 }
